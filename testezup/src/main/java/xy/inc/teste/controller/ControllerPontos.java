@@ -11,7 +11,7 @@ import xy.inc.teste.repository.RepositoryPontos;
 @RestController
 @RequestMapping("/ponto") 
 @CrossOrigin(origins = "*", allowedHeaders = "*")
-public class ControllerPontos {
+public class ControllerPontos { 
 	
 	@Autowired
 	private RepositoryPontos repository;
@@ -24,7 +24,7 @@ public class ControllerPontos {
 	@PostMapping
 	public ResponseEntity<ModelPontos> post (@RequestBody ModelPontos nome){
 		return ResponseEntity.status(HttpStatus.CREATED).body(repository.save(nome));
-	}
+	} 
 	
 	@PutMapping
 	public ResponseEntity<ModelPontos> put (@RequestBody ModelPontos modelpontos){

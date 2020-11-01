@@ -24,4 +24,4 @@ public class Teste{
 	assertThat(pontos);
 	}
 
-} 
+}  
