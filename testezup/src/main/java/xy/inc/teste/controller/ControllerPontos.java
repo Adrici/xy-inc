@@ -9,7 +9,7 @@ import xy.inc.teste.model.ModelPontos;
 import xy.inc.teste.repository.RepositoryPontos;
 
 @RestController
-@RequestMapping("/ponto")
+@RequestMapping("/ponto") 
 @CrossOrigin(origins = "*", allowedHeaders = "*")
 public class ControllerPontos {
 	
