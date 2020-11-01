@@ -1,0 +1,126 @@
+{
+	"info": {
+		"_postman_id": "b11c6003-1066-4b94-a7d7-41bed65fcb68",
+		"name": "EMPRESA XY",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "POST EMPRESA XY",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome\": \"Lanchonete\",\r\n    \"coordenadax\": 27,\r\n    \"coordenaday\": 12\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/ponto",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ponto"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT EMPRESA XY",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\":7,\r\n    \"nome\": \"Churrascaria\",\r\n    \"coordenadax\": 28,\r\n    \"coordenaday\": 2\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/ponto",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ponto"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE EMPRESA XY",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \r\n    \"nome\": \"Comida Arabe\",\r\n    \"coordenadax\": 28,\r\n    \"coordenaday\": 7\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/ponto/8",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ponto",
+						"8"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET EMPRESA XY",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \r\n    \"nome\": \"Comida Arabe\",\r\n    \"coordenadax\": 28,\r\n    \"coordenaday\": 7\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/ponto",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ponto"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
